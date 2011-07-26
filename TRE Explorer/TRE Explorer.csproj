@@ -1,0 +1,326 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DDE615FA-808D-4F9D-8559-72E6BF648D17}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TRE_Explorer</RootNamespace>
+    <AssemblyName>TRE Explorer</AssemblyName>
+    <ApplicationIcon>R2D2.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Be.Windows.Forms.HexBox, Version=1.2.0.14173, Culture=neutral, PublicKeyToken=e0e5adf0ebc99863">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\Be.Windows.Forms.HexBox.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MediaPlayer, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>References\MediaPlayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft DirectX SDK (November 2007)\Developer Runtime\x86\DirectX for Managed Code\Microsoft.DirectX.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft DirectX SDK (November 2007)\Developer Runtime\x86\DirectX for Managed Code\Microsoft.DirectX.Direct3D.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft DirectX SDK (November 2007)\Developer Runtime\x86\DirectX for Managed Code\Microsoft.DirectX.Direct3DX.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Shared Classes\ClassDataObjectEx.cs" />
+    <Compile Include="Shared Classes\ClassIStreamWrapper.cs" />
+    <Compile Include="Shared Classes\FileAssociation\AssociationManager.cs" />
+    <Compile Include="Shared Classes\FileAssociation\FileAssociationInfo.cs" />
+    <Compile Include="Shared Classes\FileAssociation\ProgramAssociationInfo.cs" />
+    <Compile Include="Shared Classes\FileAssociation\ProgramIcon.cs" />
+    <Compile Include="Shared Classes\FileAssociation\ProgramVerb.cs" />
+    <Compile Include="Shared Classes\FileAssociation\RegistryException.cs" />
+    <Compile Include="Shared Classes\FileAssociation\RegistryWrapper.cs" />
+    <Compile Include="Shared Classes\FileAssociation\ShellNotification.cs" />
+    <Compile Include="Shared Forms\FormNotifyIcon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shared Forms\FormNotifyIcon.Designer.cs">
+      <DependentUpon>FormNotifyIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\FormIFFILFWSEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\FormIFFILFWSEditor.Designer.cs">
+      <DependentUpon>FormIFFILFWSEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PALEditor\FormPALEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PALEditor\FormPALEditor.Designer.cs">
+      <DependentUpon>FormPALEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STFEditor\FormSTFEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STFEditor\FormSTFEditor.Designer.cs">
+      <DependentUpon>FormSTFEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shared Forms\FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shared Forms\FormAbout.designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TRETOCViewer\FormFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRETOCViewer\FormFilter.Designer.cs">
+      <DependentUpon>FormFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shared Classes\ObjectListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DDSTGAPreview\FormDDSTGAPreviewRenderSurface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DDSTGAPreview\FormDDSTGAPreviewRenderSurface.Designer.cs">
+      <DependentUpon>FormDDSTGAPreviewRenderSurface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\IFFEditor\FormIFFEditorFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\IFFEditor\FormIFFEditorFind.Designer.cs">
+      <DependentUpon>FormIFFEditorFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TRETOCViewer\FormProgress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRETOCViewer\FormProgress.designer.cs">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\IFFEditor\FormIFFEditorReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\IFFEditor\FormIFFEditorReplace.Designer.cs">
+      <DependentUpon>FormIFFEditorReplace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shared Forms\FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shared Forms\FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TRETOCViewer\FormTOCTREViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRETOCViewer\FormTOCTREViewer.Designer.cs">
+      <DependentUpon>FormTOCTREViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shared Classes\ClassSWGLib.cs" />
+    <Compile Include="IFFILFWSEditor\WSEditor\FormWSFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\WSEditor\FormWSFind.Designer.cs">
+      <DependentUpon>FormWSFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\WSEditor\FormWSItemManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\WSEditor\FormWSItemManager.Designer.cs">
+      <DependentUpon>FormWSItemManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\ILFEditor\FormILFMatrixCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\ILFEditor\FormILFMatrixCalculator.designer.cs">
+      <DependentUpon>FormILFMatrixCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\ILFEditor\FormILFRenderSurface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFFILFWSEditor\ILFEditor\FormILFRenderSurface.Designer.cs">
+      <DependentUpon>FormILFRenderSurface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Shared Forms\FormNotifyIcon.resx">
+      <DependentUpon>FormNotifyIcon.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IFFILFWSEditor\FormIFFILFWSEditor.resx">
+      <DependentUpon>FormIFFILFWSEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PALEditor\FormPALEditor.resx">
+      <DependentUpon>FormPALEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STFEditor\FormSTFEditor.resx">
+      <DependentUpon>FormSTFEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared Forms\FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRETOCViewer\FormFilter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DDSTGAPreview\FormDDSTGAPreviewRenderSurface.resx">
+      <DependentUpon>FormDDSTGAPreviewRenderSurface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IFFILFWSEditor\IFFEditor\FormIFFEditorFind.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormIFFEditorFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IFFILFWSEditor\IFFEditor\FormIFFEditorReplace.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormIFFEditorReplace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRETOCViewer\FormProgress.resx">
+      <DependentUpon>FormProgress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shared Forms\FormSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRETOCViewer\FormTOCTREViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormTOCTREViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IFFILFWSEditor\WSEditor\FormWSFind.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormWSFind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IFFILFWSEditor\WSEditor\FormWSItemManager.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormWSItemManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IFFILFWSEditor\ILFEditor\FormILFMatrixCalculator.resx">
+      <DependentUpon>FormILFMatrixCalculator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IFFILFWSEditor\ILFEditor\FormILFRenderSurface.resx">
+      <DependentUpon>FormILFRenderSurface.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DDSTGAPreview\FormDDSTGAPreviewRenderFrame.resx">
+      <DependentUpon>FormDDSTGAPreviewRenderFrame.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="DDSTGAPreview\FormDDSTGAPreviewRenderFrame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DDSTGAPreview\FormDDSTGAPreviewRenderFrame.Designer.cs">
+      <DependentUpon>FormDDSTGAPreviewRenderFrame.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="R2D2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>"C:\Program Files (x86)\Microsoft\ILMerge\ILMerge.exe" /out:"$(SolutionDir)TRE Explorer.exe" "$(TargetDir)TRE Explorer.exe" "$(ProjectDir)References\ICSharpCode.SharpZipLib.dll" "$(ProjectDir)References\Be.Windows.Forms.HexBox.dll" "$(ProjectDir)References\MediaPlayer.dll" 
+DEL "$(SolutionDir)TRE Explorer.pdb"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

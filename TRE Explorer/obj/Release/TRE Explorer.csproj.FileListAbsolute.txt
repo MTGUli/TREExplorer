@@ -1,0 +1,56 @@
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\bin\Release\TRE Explorer.exe.config
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\bin\Release\TRE Explorer.exe
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\bin\Release\TRE Explorer.pdb
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\bin\Release\Be.Windows.Forms.HexBox.dll
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\bin\Release\MediaPlayer.dll
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormNotifyIcon.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormIFFILFWSEditor.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormPALEditor.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormSTFEditor.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormAbout.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormFilter.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormDDSTGAPreviewRenderSurface.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormIFFEditorFind.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormIFFEditorReplace.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormProgress.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormSettings.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormTOCTREViewer.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormWSFind.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormWSItemManager.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormILFMatrixCalculator.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormILFRenderSurface.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.Properties.Resources.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormDDSTGARenderFrame.resources
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE Explorer.csproj.GenerateResource.Cache
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE Explorer.exe
+C:\Users\grosenthol\Documents\Visual Studio 2008\Projects\TRE Explorer\TRE Explorer\obj\Release\TRE Explorer.pdb
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\bin\Release\TRE Explorer.exe.config
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE Explorer.exe
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE Explorer.pdb
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormNotifyIcon.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormIFFILFWSEditor.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormPALEditor.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormSTFEditor.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormAbout.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormFilter.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormDDSTGAPreviewRenderSurface.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormIFFEditorFind.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormIFFEditorReplace.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormProgress.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormSettings.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormTOCTREViewer.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormWSFind.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormWSItemManager.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormILFMatrixCalculator.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormILFRenderSurface.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.FormDDSTGARenderFrame.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE Explorer.csproj.GenerateResource.Cache
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\obj\Release\TRE_Explorer.Properties.Resources.resources
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\bin\Release\TRE Explorer.exe
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\bin\Release\TRE Explorer.pdb
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\bin\Release\Be.Windows.Forms.HexBox.dll
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Dec\Documents\Visual Studio 2008\Projects\TREExplorerSource\TRE Explorer\TRE Explorer\bin\Release\MediaPlayer.dll

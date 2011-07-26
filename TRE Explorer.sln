@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRE Explorer", "TRE Explorer\TRE Explorer.csproj", "{DDE615FA-808D-4F9D-8559-72E6BF648D17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE615FA-808D-4F9D-8559-72E6BF648D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE615FA-808D-4F9D-8559-72E6BF648D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE615FA-808D-4F9D-8559-72E6BF648D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE615FA-808D-4F9D-8559-72E6BF648D17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
